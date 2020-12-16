@@ -79,13 +79,17 @@
     box-sizing: border-box;
   }
 
+  img {
+    width: 100%;
+  }
+
   /* COMMON */
 
   .tablet-element {
-    display: none !important;
+    display: none /*!important*/;
   }
   .desktop-element {
-    display: none !important;
+    display: none /*!important*/;
   }
 
   .mobile-element {
