@@ -79,11 +79,11 @@
     box-sizing: border-box;
   }
 
-  img {
-    width: 100%;
-  }
 
   /* COMMON */
+  .project-modal-container .modal-area-content {
+    width: 100%;
+  }
 
   .tablet-element {
     display: none /*!important*/;
@@ -358,11 +358,14 @@
   height: 85%;
 }
 
+
 .project-modal-scrollable {
   overflow-y: auto;
   height: 100%;
   padding: 0 25px;
 }
+
+
 
 .project-modal-title {
   font-weight: bold;
@@ -982,7 +985,6 @@ padding: 5px 0 17px;
 
    .footer {
     background: var(--c-light);
-    min-width: 320px;
   }
 
   .footer .container {
